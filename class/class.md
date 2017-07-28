@@ -83,3 +83,5 @@ import java.io.*;
 
 ## 代码顺序： puppy ---> dog ---> Employee && EmployeeTest
 ## <font color="red">疑问：Employee && EmployeeTest 这个demo里面EmployeeTest是在哪里引用的Employee？？？如果说是像这样 **import java.io.*;**  引用进来的话，那是不是说明Java编译完之后的冬衣都存在了这个路径下面？？？？</font>
+
+## 解答：java因强制要求类名（唯一的public类）和文件名统一，因此在引用其它类时无需显式声明。在编译时，编译器会根据类名去寻找同名文件

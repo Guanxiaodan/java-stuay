@@ -1,4 +1,4 @@
-import java.io.*;
+// import java.io.*;
  // 该文件不需要手动编译，因为EmployeeTest引了它，所以在编译EmployeeTest时候，本文件也被一并编译了
 public class Employee{
    String name;
